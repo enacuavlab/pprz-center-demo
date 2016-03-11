@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'main_window.ui'
 #
-# Created: Wed Mar  9 09:22:59 2016
+# Created: Fri Mar 11 10:01:53 2016
 #      by: PyQt5 UI code generator 5.2.1
 #
 # WARNING! All changes made in this file will be lost!
@@ -126,8 +126,6 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.current_configuration.sizePolicy().hasHeightForWidth())
         self.current_configuration.setSizePolicy(sizePolicy)
         self.current_configuration.setObjectName("current_configuration")
-        self.current_configuration.addItem("")
-        self.current_configuration.addItem("")
         self.current_configuration.addItem("")
         self.current_configuration.addItem("")
         self.current_configuration.addItem("")
@@ -1199,10 +1197,8 @@ class Ui_MainWindow(object):
         self.current_configuration.setToolTip(_translate("MainWindow", "Select the current configuration in the set"))
         self.current_configuration.setItemText(0, _translate("MainWindow", "Microjet1flo"))
         self.current_configuration.setItemText(1, _translate("MainWindow", "Microjet2flo"))
-        self.current_configuration.setItemText(2, _translate("MainWindow", "Quad1flo"))
-        self.current_configuration.setItemText(3, _translate("MainWindow", "Quad2flo"))
-        self.current_configuration.setItemText(4, _translate("MainWindow", "Quad3flo"))
-        self.current_configuration.setItemText(5, _translate("MainWindow", "Quad4flo"))
+        self.current_configuration.setItemText(2, _translate("MainWindow", "Quadsflo1"))
+        self.current_configuration.setItemText(3, _translate("MainWindow", "Quads"))
         self.stackedWidget.setToolTip(_translate("MainWindow", "Overview of settings and session informations (depends on the active tab)"))
         self.label_32.setText(_translate("MainWindow", "Session :"))
         self.session_overview_2.setItemText(0, _translate("MainWindow", "Simulation"))
@@ -1317,7 +1313,7 @@ class Ui_MainWindow(object):
         self.quick_kill_2.setText(_translate("MainWindow", "Kill all"))
         self.quick_restart_3.setText(_translate("MainWindow", "Restart all"))
         self.real_time_search.setToolTip(_translate("MainWindow", "Look for an XML file here... (autocompletion)"))
-        self.real_time_search.setText(_translate("MainWindow", "Quad"))
+        self.real_time_search.setText(_translate("MainWindow", "Qua"))
         self.scrollArea_3.setToolTip(_translate("MainWindow", "Current configuration"))
         self.frame_2.setToolTip(_translate("MainWindow", "Current airframes and settings"))
         self.label_14.setText(_translate("MainWindow", "Airframes :"))

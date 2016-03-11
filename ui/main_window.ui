@@ -285,22 +285,12 @@
          </item>
          <item>
           <property name="text">
-           <string>Quad1flo</string>
+           <string>Quadsflo1</string>
           </property>
          </item>
          <item>
           <property name="text">
-           <string>Quad2flo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Quad3flo</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Quad4flo</string>
+           <string>Quads</string>
           </property>
          </item>
         </widget>
@@ -1197,7 +1187,7 @@
            <string>Look for an XML file here... (autocompletion)</string>
           </property>
           <property name="text">
-           <string>Quad</string>
+           <string>Qua</string>
           </property>
          </widget>
         </item>

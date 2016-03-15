@@ -4,17 +4,17 @@ Welcome in the model of what could be the future Paparazzi Center HMI !
 
 1) To run that model, you need :
 
--> Python 3.4 (install package 'python3')
--> PyQt5 (install package 'python3-pyqt5')
+> Python 3.4 (install package 'python3')
+> PyQt5 (install package 'python3-pyqt5')
 
 Then, launch the program in a terminal ('python3 main.py')
 
 
 2) About that model :
 
--> It's a pure HMI model, no function is implemented yet.
--> The widgets are set to give the clearest idea about their role in the HMI.
--> You can explore the pages and get iformations about the components by their tooltips.
+> It's a pure HMI model, no function is implemented yet.
+> The widgets are set to give the clearest idea about their role in the HMI.
+> You can explore the pages and get iformations about the components by their tooltips.
 
 
 3) Feedback :

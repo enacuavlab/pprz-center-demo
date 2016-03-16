@@ -1134,7 +1134,7 @@
        <enum>QTabWidget::Triangular</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>2</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideNone</enum>
@@ -1292,6 +1292,9 @@
                  <item>
                   <property name="text">
                    <string>rotorcraft_basic</string>
+                  </property>
+                  <property name="checkState">
+                   <enum>Unchecked</enum>
                   </property>
                  </item>
                 </widget>
@@ -2436,7 +2439,7 @@
         <item row="1" column="0">
          <widget class="QLabel" name="label_8">
           <property name="text">
-           <string>Processus :</string>
+           <string>Programs :</string>
           </property>
          </widget>
         </item>
@@ -2899,7 +2902,7 @@ p, li { white-space: pre-wrap; }
    </widget>
    <widget class="QMenu" name="menuTools">
     <property name="title">
-     <string>Tools</string>
+     <string>Programs</string>
     </property>
     <addaction name="actionGCS"/>
     <addaction name="actionMessages"/>
